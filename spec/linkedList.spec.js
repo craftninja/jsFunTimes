@@ -42,7 +42,7 @@ describe('LinkedList', function() {
     expect(list.pop()).toBe(50);
     expect(list.shift()).toBe(30);
   });
-  xit('can count its elements', function() {
+  it('can count its elements', function() {
     let list = new LinkedList();
     expect(list.count()).toBe(0);
     list.push(10);
