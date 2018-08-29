@@ -1,4 +1,4 @@
-var Year = require('../lib/leap');
+const Year = require('../lib/leap');
 
 describe('Leap year', function () {
   it('is not very common', function () {
